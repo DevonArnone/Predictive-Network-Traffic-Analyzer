@@ -1,0 +1,9 @@
+{
+  "raw_packets": 1000,
+  "windows_created": 21,
+  "features_per_window": 5,
+  "raw_variance": 11500952.96137468,
+  "normalized_variance": 0.08249836980920404,
+  "variance_reduction_percent": 99.99999928268231,
+  "convergence_improvement_estimate": "15-20%"
+}
