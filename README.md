@@ -2,6 +2,33 @@
 
 A real-time network traffic prediction system using LSTM neural networks, Kafka streaming, and PyTorch. This system monitors network traffic patterns and predicts potential congestion before it occurs.
 
+## Project Visualizations
+
+### Model Analysis
+![Predicted vs Actual Traffic](figure1_predicted_vs_actual.png)
+*Figure 1: Comparison between predicted network traffic and actual recorded packet counts.*
+
+![Prediction Error Over Time](figure2_prediction_error.png)
+*Figure 2: Analysis of prediction error (MAE: 15.49, RMSE: 17.13) over time.*
+
+![Distribution of Predictions](figure3_prediction_distribution.png)
+*Figure 3: Histogram showing the frequency and distribution of predicted packet counts against the threshold.*
+
+![Cumulative Traffic Over Time](figure4_cumulative_traffic.png)
+*Figure 4: The total sum of predicted vs. actual traffic over the measurement period.*
+
+---
+
+### System Architecture & Engineering
+![Feature Engineering Impact](figure5_feature_engineering_impact.png)
+*Figure 5: Comparison of variance reduction and convergence speed improvements (approx. 15% faster) through normalization.*
+
+![Comprehensive Performance Dashboard](figure6_comprehensive_dashboard.png)
+*Figure 6: High-level overview of model performance, Kafka pipeline throughput, and technology stack.*
+
+![System Overview Dashboard](figure7_comprehensive_dashboard.png)
+*Figure 7: Full system architecture including the LSTM model layers and the Apache Kafka real-time pipeline.*
+
 ## Architecture Overview
 
 1. **Data Generation**: Simulates realistic network packets using Scapy and streams to Kafka
